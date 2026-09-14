@@ -1,0 +1,22 @@
+[Unit]
+Description=Persistent isolated browser for local AI agents
+Documentation=https://github.com/Ai110002/ai-browser
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=@NODE_BIN@ @AI_BROWSER_ROOT@/app/bridge.mjs --daemon --headed --foreground
+Restart=on-failure
+RestartSec=5s
+TimeoutStopSec=20s
+KillMode=control-group
+UMask=0077
+Nice=5
+CPUQuota=250%
+MemoryHigh=6G
+MemoryMax=8G
+TasksMax=512
+
+[Install]
+WantedBy=graphical-session.target

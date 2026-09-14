@@ -1,0 +1,22 @@
+# Runtime state and sensitive browser data
+profile/
+spaces/
+sessions/
+downloads/
+screenshots/
+logs/
+state/
+uploads/
+*.gpg
+*.key
+*.pem
+.env*
+
+# Local dependencies and generated caches
+app/node_modules/
+app/pyvenv/
+__pycache__/
+.cache/
+
+# Local deployment substitutions
+systemd/ai-browser.service

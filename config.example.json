@@ -1,0 +1,12 @@
+{
+  "mode": "headed",
+  "startMinimized": true,
+  "profileDir": "~/.local/share/ai-browser/profile",
+  "maxConcurrentSpaces": 3,
+  "maxPagesPerSpace": 8,
+  "pageLoadTimeoutMs": 30000,
+  "actionTimeoutMs": 15000,
+  "batchTimeoutMs": 30000,
+  "maxLogBytes": 10485760,
+  "logRotations": 5
+}

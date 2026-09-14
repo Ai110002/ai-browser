@@ -1,0 +1,11 @@
+{
+  "name": "ai-browser-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local persistent Chromium bridge for AI agents",
+  "license": "MIT",
+  "dependencies": {
+    "playwright-core": "1.63.0"
+  }
+}

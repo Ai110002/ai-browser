@@ -1,0 +1,40 @@
+{
+  "navigation": {
+    "mode": "open",
+    "allowHosts": []
+  },
+  "credentials": {
+    "entries": []
+  },
+  "blockedHostKeywords": [
+    "bank",
+    "wallet",
+    "exchange",
+    "creditcard",
+    "credit-card",
+    "password-manager",
+    "passwordmanager"
+  ],
+  "blockedHosts": [
+    "*.bank",
+    "*.paypal.*",
+    "*.stripe.com",
+    "*.coinbase.com",
+    "*.kraken.com",
+    "*.binance.com",
+    "*.metamask.io",
+    "*.ledger.com",
+    "*.trezor.io"
+  ],
+  "highRiskHosts": [
+    "*.bank",
+    "*.paypal.*",
+    "*.stripe.com",
+    "*.coinbase.com",
+    "*.kraken.com",
+    "*.binance.com",
+    "*.metamask.io",
+    "*.ledger.com",
+    "*.trezor.io"
+  ]
+}

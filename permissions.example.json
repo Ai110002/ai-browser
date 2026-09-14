@@ -1,0 +1,13 @@
+{
+  "defaultLevel": "LOW",
+  "mediumRequiresAudit": true,
+  "highRequiresHuman": true,
+  "rawSensitiveFillBlocked": true,
+  "evaluateAllowlist": [
+    "documentMeta",
+    "getText",
+    "getAttribute",
+    "count",
+    "scrollIntoView"
+  ]
+}

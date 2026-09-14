@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+export AI_BROWSER_AGENT=claude
+exec /home/ianlin/.nvm/versions/node/v24.20.0/bin/node /home/ianlin/.local/share/ai-browser/app/mcp.mjs

@@ -1,0 +1,19 @@
+{
+  "spaces": {
+    "codex": "codex",
+    "claude": "claude",
+    "deepseek": "deepseek",
+    "hermes": "hermes",
+    "gemini": "gemini",
+    "opencode": "opencode"
+  },
+  "allowedAgents": [
+    "codex",
+    "claude",
+    "deepseek",
+    "hermes",
+    "gemini",
+    "opencode",
+    "operator"
+  ]
+}
